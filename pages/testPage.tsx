@@ -7,6 +7,16 @@ const Root = styled.div`
 
 `;
 
+/*
+TODO:
+1. BPM 설정
+2. 오선지 표시
+3. 오선지에 음표 추가
+4. 정해진 BPM에 맞춰 오선지에 움직이도록 애니메이션 효과
+5. 효과에 맞춰서 음표에 해당하는 소리 출력
+*/
+
+
 const Home: NextPage = () => {
 
     const [btn,setBtn] = useState(false);
